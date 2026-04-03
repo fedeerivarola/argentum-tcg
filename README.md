@@ -65,7 +65,7 @@ Hablemos de dinero... El sistema no esta disponible, ya que no cuento con el pre
 ```mermaid
 flowchart LR
 
-User[User Browser] --> SPA[Frontend SPA<br>React + Vite]
+User[Creadores] --> SPA[Frontend SPA<br>React + Vite]
 
 SPA --> Auth[Firebase Authentication]
 SPA --> Firestore[Cloud Firestore DB]
